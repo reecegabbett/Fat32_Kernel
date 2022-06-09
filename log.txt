@@ -1,0 +1,569 @@
+commit 0a2053ab733620ebee93befc837af5f252c790ba
+Author: finley-talley <73396510+finley-talley@users.noreply.github.com>
+Date:   Thu Apr 21 23:42:21 2022 -0400
+
+    Update README.md
+
+commit 8c77518072ea542dbbc2bb01e524e2fd285eb58d
+Merge: d3ec9e0 ea93404
+Author: finley-talley <73396510+finley-talley@users.noreply.github.com>
+Date:   Thu Apr 21 23:39:32 2022 -0400
+
+    Merge branch 'main' of https://github.com/finley-talley/fat32_fs
+
+commit d3ec9e06646f02e76d5d677aeabe496513a7c453
+Author: finley-talley <73396510+finley-talley@users.noreply.github.com>
+Date:   Thu Apr 21 23:39:25 2022 -0400
+
+    bugfix to open
+
+commit ea93404e0daedfd7f0ef1978493f607c140e8513
+Author: Dylan Dalal <59746456+DylanDalal@users.noreply.github.com>
+Date:   Thu Apr 21 23:38:36 2022 -0400
+
+    Update README.md
+
+commit d09a9012e3d7a31b6843d317f6a9c2b19ae78dac
+Author: Reece Gabbett <81770210+reecegabbett@users.noreply.github.com>
+Date:   Thu Apr 21 23:27:40 2022 -0400
+
+    Error messages
+
+commit b106f0f7f775de2c4e66b03a21a6542f3e62e82d
+Merge: 09187cb e3be5e1
+Author: finley-talley <73396510+finley-talley@users.noreply.github.com>
+Date:   Thu Apr 21 23:25:01 2022 -0400
+
+    Merge branch 'main' of https://github.com/finley-talley/fat32_fs
+
+commit 09187cb3f10cd89189c9aa9fa4d29ed730904a9d
+Author: finley-talley <73396510+finley-talley@users.noreply.github.com>
+Date:   Thu Apr 21 23:22:05 2022 -0400
+
+    added div of labor to readme + other edits
+
+commit e3be5e1749d9dd727333262f51d91e4e13a1a404
+Author: Reece Gabbett <81770210+reecegabbett@users.noreply.github.com>
+Date:   Thu Apr 21 23:14:31 2022 -0400
+
+    Update README.md
+
+commit c59e9f76e98cbcccdbb9b96c4bd34e71d608e6c7
+Author: Reece Gabbett <81770210+reecegabbett@users.noreply.github.com>
+Date:   Thu Apr 21 23:08:13 2022 -0400
+
+    Update README.md
+
+commit 41436ce6a33c876a3618ea7adec1135902f491c3
+Author: finley-talley <73396510+finley-talley@users.noreply.github.com>
+Date:   Thu Apr 21 23:02:00 2022 -0400
+
+    deleting build(?) files
+
+    likely from vs code
+
+commit a6d37f6372cf5f9d3663643aa2fb66b1087ec90b
+Author: finley-talley <73396510+finley-talley@users.noreply.github.com>
+Date:   Thu Apr 21 22:59:31 2022 -0400
+
+    updated gitignore, deleted old executable
+
+commit d42b50eadb7fc36736489a4b3b02a8b50767429b
+Author: finley-talley <73396510+finley-talley@users.noreply.github.com>
+Date:   Thu Apr 21 22:54:34 2022 -0400
+
+    cluster number update for read
+
+commit 0bbdb47b4529856fb0db1c79ffdd7397d4468c11
+Author: finley-talley <73396510+finley-talley@users.noreply.github.com>
+Date:   Thu Apr 21 22:48:20 2022 -0400
+
+    removed path string and prev cluster from curdir struct
+
+commit 1b7599f13f47d32b7c9b43ee5642d7d6c85445fe
+Author: finley-talley <73396510+finley-talley@users.noreply.github.com>
+Date:   Thu Apr 21 22:46:16 2022 -0400
+
+    removed all traces of trim()
+
+commit a95c0c890a75cf70e5a8319b864ad45e8c1097b5
+Merge: 54a4c50 5a6f1ce
+Author: finley-talley <73396510+finley-talley@users.noreply.github.com>
+Date:   Thu Apr 21 22:16:52 2022 -0400
+
+    Merge branch 'main' of https://github.com/finley-talley/fat32_fs
+
+commit 54a4c506fe3c78dbd334e55fc1df14719d339bcd
+Author: finley-talley <73396510+finley-talley@users.noreply.github.com>
+Date:   Thu Apr 21 22:14:32 2022 -0400
+
+    fixed warnings
+
+    again...:sob:
+
+commit 5a6f1ce17924141732270361d763c03e03ae3c0c
+Author: Reece Gabbett <81770210+reecegabbett@users.noreply.github.com>
+Date:   Thu Apr 21 21:53:10 2022 -0400
+
+    lSeek implemented
+
+commit 41cac6ea7610c84850ec820021caa946629593af
+Author: finley-talley <73396510+finley-talley@users.noreply.github.com>
+Date:   Thu Apr 21 21:44:59 2022 -0400
+
+    adapted size to accomodate clusters
+
+commit f72eae5989ab8bb0d3c07c5908bfcf99f8db60f2
+Author: finley-talley <73396510+finley-talley@users.noreply.github.com>
+Date:   Thu Apr 21 21:36:09 2022 -0400
+
+    fixed issue with size not changing when writing
+
+commit 0dc4e7c3aee45f91846501853e6a27e99ac2ffa8
+Author: Reece Gabbett <81770210+reecegabbett@users.noreply.github.com>
+Date:   Thu Apr 21 21:18:58 2022 -0400
+
+    Size Bug Fixing
+
+commit 5b5fe796543ef1ce3b0ed7fa75129986552ba9dc
+Author: finley-talley <73396510+finley-talley@users.noreply.github.com>
+Date:   Thu Apr 21 21:06:10 2022 -0400
+
+    rename is finished/implemented
+
+commit a4fb0a73f8a1162ac1ec72ff809e4f77bde13fea
+Author: finley-talley <73396510+finley-talley@users.noreply.github.com>
+Date:   Thu Apr 21 20:48:57 2022 -0400
+
+    working on rename, getdiroffset helper made, other changes
+
+commit e6685d2230e519be254b713677403dba8764046e
+Author: Reece Gabbett <81770210+reecegabbett@users.noreply.github.com>
+Date:   Thu Apr 21 20:36:19 2022 -0400
+
+    lseek completed
+
+commit 203d84957bc18241463a00b57f17fd331ff031eb
+Author: Reece Gabbett <81770210+reecegabbett@users.noreply.github.com>
+Date:   Thu Apr 21 20:10:00 2022 -0400
+
+    Fixed Bracket Error
+
+commit dbf3cda826a879fa961c0b482efff03eb54bd5ea
+Author: Reece Gabbett <81770210+reecegabbett@users.noreply.github.com>
+Date:   Thu Apr 21 19:58:55 2022 -0400
+
+    using getClusterNum
+
+commit 62845c500dc6b8b2bf31b40010ffa13852c1bd79
+Author: Dylan Dalal <dylanmax@gmail.com>
+Date:   Thu Apr 21 19:41:46 2022 -0400
+
+    this
+
+commit de25e282f9a29737a4f9570794220f881056bc0b
+Author: Dylan Dalal <dylanmax@gmail.com>
+Date:   Thu Apr 21 19:39:21 2022 -0400
+
+    semi-final creat function, needs the bit stuff
+
+commit 6db6651d9d588e79a4dbdb97abb1d5b23f694430
+Author: Dylan Dalal <dylanmax@gmail.com>
+Date:   Thu Apr 21 19:39:14 2022 -0400
+
+    semi-final creat function, needs the bit stuff
+
+commit 60efd82e1f460e0139b603e4cf1e9c679036a484
+Author: Reece Gabbett <81770210+reecegabbett@users.noreply.github.com>
+Date:   Thu Apr 21 19:25:46 2022 -0400
+
+    Bug Fix
+
+commit da5ff16edf16d2cd9d32a82db3f25e7ea3595f09
+Author: Reece Gabbett <81770210+reecegabbett@users.noreply.github.com>
+Date:   Thu Apr 21 19:21:02 2022 -0400
+
+    Open Close Write and Read Completed
+
+commit 3915ac0b56980cc190a102f93ea7dc909d3f27c0
+Author: finley-talley <73396510+finley-talley@users.noreply.github.com>
+Date:   Thu Apr 21 18:07:47 2022 -0400
+
+    fixed a bunch of warnings
+
+commit fda075c057a1dd53b46d070c0ef79e5a6b07a76f
+Author: finley-talley <73396510+finley-talley@users.noreply.github.com>
+Date:   Thu Apr 21 17:42:02 2022 -0400
+
+    commened out creat for now
+
+commit 17e0a5506a22bad7911ee408dc863abe3c839424
+Merge: 322332d 95b2aeb
+Author: finley-talley <73396510+finley-talley@users.noreply.github.com>
+Date:   Thu Apr 21 17:36:30 2022 -0400
+
+    Merge branch 'main' of https://github.com/finley-talley/fat32_fs
+
+commit 322332d19cac429c488c5bc73a6cac7b5bff83ea
+Author: finley-talley <73396510+finley-talley@users.noreply.github.com>
+Date:   Thu Apr 21 17:32:06 2022 -0400
+
+    basics of cd implemented
+
+    need to still update path string
+
+commit 95b2aeb4439a31f36c3903b5813af1006a083e48
+Author: Dylan Dalal <dylanmax@gmail.com>
+Date:   Thu Apr 21 16:49:05 2022 -0400
+
+    one trick pony
+
+commit 9af43d515c9b5e36bc99645c81a6186c54c7c12b
+Author: Reece Gabbett <81770210+reecegabbett@users.noreply.github.com>
+Date:   Thu Apr 21 16:44:41 2022 -0400
+
+    Cluster Allocation
+
+commit 587d7542096bf56d534618b0965e8ed226da2fcd
+Author: finley-talley <73396510+finley-talley@users.noreply.github.com>
+Date:   Thu Apr 21 16:35:28 2022 -0400
+
+    fixed error with ls, removed some commented code
+
+commit ca07653f215d98ea8fc92a1d1f8568d4265350cd
+Author: finley-talley <73396510+finley-talley@users.noreply.github.com>
+Date:   Thu Apr 21 15:59:28 2022 -0400
+
+    updated getdireentry to take clusters into account
+
+commit e8ff7b9af088c33a8503a02f12104073cc80df1c
+Author: finley-talley <73396510+finley-talley@users.noreply.github.com>
+Date:   Thu Apr 21 15:47:00 2022 -0400
+
+    ls done except for when cant find directory
+
+commit 842f58c96193e8a9b3c5b081b88e3746f3a8949a
+Author: Reece Gabbett <81770210+reecegabbett@users.noreply.github.com>
+Date:   Thu Apr 21 02:10:00 2022 -0400
+
+    Write (~90% done)
+
+commit debf229a76edd00eeb50f58e54e913ca504e1063
+Author: Dylan Dalal <59746456+DylanDalal@users.noreply.github.com>
+Date:   Thu Apr 21 01:01:49 2022 -0400
+
+    bug fixes
+
+commit 331dbbbcfe11c62681abb6114c95ce93423c98d3
+Author: Dylan Dalal <dylanmax@gmail.com>
+Date:   Thu Apr 21 00:57:46 2022 -0400
+
+    creat again
+
+commit a34fc6b9975cff8b68b30db46fe160f109bcc2c3
+Author: Reece Gabbett <81770210+reecegabbett@users.noreply.github.com>
+Date:   Thu Apr 21 00:03:52 2022 -0400
+
+    Update main.c
+
+commit 88b4c996c200707de0fe55a9cbdf2a92d19cc137
+Author: Reece Gabbett <81770210+reecegabbett@users.noreply.github.com>
+Date:   Wed Apr 20 22:38:45 2022 -0400
+
+    Update Read for Clusters
+
+commit 2da84619e07ff994a27401dd8b00931b85bd4a89
+Author: Reece Gabbett <81770210+reecegabbett@users.noreply.github.com>
+Date:   Wed Apr 20 18:19:01 2022 -0400
+
+    Basic Writing Command (only writes to first cluster)
+
+commit 47177d4413433a034336401a7966909812501011
+Author: Reece Gabbett <81770210+reecegabbett@users.noreply.github.com>
+Date:   Wed Apr 20 16:42:31 2022 -0400
+
+    Implemented Read Command
+
+commit e540c2cd4ed181d0ed2657372342bc12eef014b5
+Author: finley-talley <73396510+finley-talley@users.noreply.github.com>
+Date:   Wed Apr 20 00:38:11 2022 -0400
+
+    renamed makefile to fit project specs
+
+commit d0e163c4607d083aacf1a35577da749d5c90d214
+Author: finley-talley <73396510+finley-talley@users.noreply.github.com>
+Date:   Wed Apr 20 00:36:56 2022 -0400
+
+    fixing some warnings
+
+commit bbb4e753ea2a42d4a8b9e18f030e997dc6696be6
+Author: finley-talley <73396510+finley-talley@users.noreply.github.com>
+Date:   Wed Apr 20 00:23:48 2022 -0400
+
+    small bugfix
+
+commit adc4fb8b83635eeedc44b45fc6103b2dc515c380
+Author: finley-talley <73396510+finley-talley@users.noreply.github.com>
+Date:   Wed Apr 20 00:23:30 2022 -0400
+
+    updated getClustNum to properly concatenate from a direntry
+
+commit 8a0719720a94c7c39e8f0fc72c23b505f77ea6a9
+Author: Reece Gabbett <81770210+reecegabbett@users.noreply.github.com>
+Date:   Tue Apr 19 23:53:30 2022 -0400
+
+    Implemented Close
+
+commit ddcf8a67a4b7b039de07085a2f7031e4f15b44ec
+Author: Reece Gabbett <81770210+reecegabbett@users.noreply.github.com>
+Date:   Tue Apr 19 23:08:47 2022 -0400
+
+    Finished Open Command
+
+commit 89bc1d4e2584e4daaaa9ec43e0168f761b7ecf39
+Author: Dylan Dalal <dylanmax@gmail.com>
+Date:   Tue Apr 19 22:14:54 2022 -0400
+
+    creat
+
+commit f82b8bd76e55c93469c2bec83a0e5e12a1d1e16e
+Author: Reece Gabbett <81770210+reecegabbett@users.noreply.github.com>
+Date:   Tue Apr 19 21:55:57 2022 -0400
+
+    Fixed pointer error
+
+commit b05e1f4e97e77a63b9b90061b492ac9371fb71a4
+Author: finley-talley <73396510+finley-talley@users.noreply.github.com>
+Date:   Tue Apr 19 21:53:23 2022 -0400
+
+    Update .gitignore
+
+commit decfe69a8e51a854e7ce5e02622b9d1eb7ca79f1
+Author: Reece Gabbett <81770210+reecegabbett@users.noreply.github.com>
+Date:   Tue Apr 19 21:34:57 2022 -0400
+
+    Open Setup
+
+commit ca6c7621c9bd2dee754167ed3f06fe753ba2dbcf
+Author: Reece Gabbett <81770210+reecegabbett@users.noreply.github.com>
+Date:   Tue Apr 19 17:29:42 2022 -0400
+
+    Update Makefile
+
+commit 6daea1f2631acac24bbd745dbdbdc342948cc5fc
+Author: Reece Gabbett <81770210+reecegabbett@users.noreply.github.com>
+Date:   Tue Apr 19 17:09:29 2022 -0400
+
+    Cleaned up Makefiles
+
+commit cc21229becae6272b15ae1f95342a864c0915cd8
+Author: finley-talley <73396510+finley-talley@users.noreply.github.com>
+Date:   Mon Apr 18 21:21:52 2022 -0400
+
+    helper funcs, working on ls DIRNAME
+
+commit 3a2d2777093f2ed9eab676345ebed2399c9bd9fe
+Author: finley-talley <73396510+finley-talley@users.noreply.github.com>
+Date:   Fri Apr 15 21:06:26 2022 -0400
+
+    size command implemented
+
+    uppercases the filename for you, and also the trim function is a bit janky
+
+commit 77baeffa57b765c269845c4b2c0c875340105b92
+Author: finley-talley <73396510+finley-talley@users.noreply.github.com>
+Date:   Fri Apr 15 19:55:46 2022 -0400
+
+    added helper functions trim and makestrupper, started size function
+
+    size function currently not working
+
+commit 46137a12947522f26355232e80f6184e614632c6
+Author: finley-talley <73396510+finley-talley@users.noreply.github.com>
+Date:   Fri Apr 15 19:17:14 2022 -0400
+
+    some adjustments
+
+commit 236694f204461547f681f242b09cb29bbff0bd95
+Author: finley-talley <73396510+finley-talley@users.noreply.github.com>
+Date:   Fri Apr 15 16:25:10 2022 -0400
+
+    change gitignore etc
+
+commit e0c2af131b4a9bff1e708454da653c10b0c92024
+Author: Dylan Dalal <dylanmax@gmail.com>
+Date:   Fri Apr 15 00:36:33 2022 -0400
+
+    creat function implementation
+
+commit ac6956abc935a68477f1fec6b914a407f951a131
+Author: Dylan Dalal <dylanmax@gmail.com>
+Date:   Thu Apr 14 04:52:12 2022 -0400
+
+    added comments
+
+commit 86f7225264a4206f3624f7d870327da76792f288
+Author: Dylan Dalal <dylanmax@gmail.com>
+Date:   Thu Apr 14 04:41:52 2022 -0400
+
+    Implemented padding into creat function
+
+commit ded514756fcc647ecc42761913340396f20ca147
+Author: finley-talley <73396510+finley-talley@users.noreply.github.com>
+Date:   Thu Apr 14 00:54:16 2022 -0400
+
+    bug fixes
+
+commit a33fc94719d3d6fa4a7fce1756ac282612b536bb
+Merge: d989f19 520d5d3
+Author: Finley Talley <73396510+finley-talley@users.noreply.github.com>
+Date:   Thu Apr 14 00:50:07 2022 -0400
+
+    Merge pull request #3 from finley-talley/ls
+
+    Ls
+
+commit 520d5d38750837f02eebc52a1d34e78f2d5dac0c
+Merge: 1126966 d989f19
+Author: Finley Talley <73396510+finley-talley@users.noreply.github.com>
+Date:   Thu Apr 14 00:48:40 2022 -0400
+
+    Merge branch 'main' into ls
+
+commit 112696605714f508730135a2b3f49ec049b05930
+Author: finley-talley <73396510+finley-talley@users.noreply.github.com>
+Date:   Thu Apr 14 00:45:14 2022 -0400
+
+    added many helper funcs and started size
+
+commit 6083cb5ae9b3475b1cb830d7e97b94001786736a
+Author: finley-talley <73396510+finley-talley@users.noreply.github.com>
+Date:   Wed Apr 13 23:03:48 2022 -0400
+
+    basics of ls done
+
+    filenames are a little botched, and need to fix the huge space after
+    only supports the root dir
+
+commit d989f19bfbb6e54e2bac7c2095efb42bd2c7c517
+Author: Dylan Dalal <dylanmax@gmail.com>
+Date:   Wed Apr 13 02:39:02 2022 -0400
+
+    began creat function
+
+    not sure how to find where to write files
+
+commit 81d385ca1f9c59d45cbd7d39404ab6d64e595c88
+Author: Dylan Dalal <dylanmax@gmail.com>
+Date:   Wed Apr 13 00:44:31 2022 -0400
+
+    Update main.c
+
+commit 1115b678104ef3d1a56b5abcb95a2147dd3960a5
+Merge: 9e8bdb8 b500b9a
+Author: Dylan Dalal <dylanmax@gmail.com>
+Date:   Wed Apr 13 00:44:17 2022 -0400
+
+    stashed changes from bootblock
+
+    finley's work and a few minor additions from me but i don't know how to pull without committing this so hopefully git doesn't credit me with all of this work lol
+
+commit 9e8bdb880ae3c0848fe747f1cf8e089de33b9db4
+Author: Dylan Dalal <dylanmax@gmail.com>
+Date:   Wed Apr 13 00:39:20 2022 -0400
+
+    stashed changes from bootblock
+
+    finley's work and a few minor additions from me but i don't know how to pull without committing this so hopefully git doesn't credit me with all of this work lol
+
+commit b500b9af5667b0de9090dc239446f00bcc86219f
+Merge: 6e52fe0 38557bf
+Author: Finley Talley <73396510+finley-talley@users.noreply.github.com>
+Date:   Wed Apr 13 00:32:23 2022 -0400
+
+    Merge pull request #2 from finley-talley/bootblock
+
+    Bootblock
+
+commit 38557bf4b0c496be8cadcfe5306cc5296f3756fe
+Author: finley-talley <73396510+finley-talley@users.noreply.github.com>
+Date:   Wed Apr 13 00:14:42 2022 -0400
+
+    added basic ls func and direntry struct
+
+commit 3a1ec3632078d5af4b3c2e88c0f7f12db34ae38e
+Author: finley-talley <73396510+finley-talley@users.noreply.github.com>
+Date:   Tue Apr 12 22:27:40 2022 -0400
+
+    added first data sector
+
+commit 38ec674f8dfe1209a28daa4600bdae053cbf8eb0
+Author: finley-talley <73396510+finley-talley@users.noreply.github.com>
+Date:   Tue Apr 12 21:46:38 2022 -0400
+
+    added info command
+
+commit 9f4cb2671d81bf6c9b650dd04503d25e3fef2b66
+Author: finley-talley <73396510+finley-talley@users.noreply.github.com>
+Date:   Tue Apr 12 21:32:28 2022 -0400
+
+    basics of reading from boot sector done
+
+commit 6e52fe0873c0a5b7c69f10f2e462a68c8375581f
+Author: finley-talley <73396510+finley-talley@users.noreply.github.com>
+Date:   Tue Apr 12 19:08:15 2022 -0400
+
+    changed executable name to project3
+
+    requirement from project doc
+
+commit bd428bda484623004fbfd32cce541026b908d945
+Author: Dylan Dalal <59746456+DylanDalal@users.noreply.github.com>
+Date:   Tue Apr 12 02:38:03 2022 -0400
+
+    Logical change
+
+commit 99ea2cd23f74bfcfd2c70a5611a58ec40da44f57
+Merge: e6079ab 41dbf13
+Author: Finley Talley <73396510+finley-talley@users.noreply.github.com>
+Date:   Mon Apr 11 00:45:25 2022 -0400
+
+    Merge pull request #1 from finley-talley/shell
+
+    Shell
+
+commit 41dbf13ba735c0ce1b1a1b55a95c3973fd08f0d5
+Author: finley-talley <73396510+finley-talley@users.noreply.github.com>
+Date:   Mon Apr 11 00:45:05 2022 -0400
+
+    checks for valid image file
+
+commit 0577c5aa58a759a423ff8fede859135a8ad7eb1e
+Author: finley-talley <73396510+finley-talley@users.noreply.github.com>
+Date:   Mon Apr 11 00:37:39 2022 -0400
+
+    working prompt with all command recognition
+
+commit 70849ecc4933cb6075b601a5580dc163c79dcb1f
+Author: finley-talley <73396510+finley-talley@users.noreply.github.com>
+Date:   Tue Apr 5 00:26:27 2022 -0400
+
+    Create Makefile
+
+commit 7e360fc8bd85deba5570e11d0a48cf4878612b21
+Author: finley-talley <73396510+finley-talley@users.noreply.github.com>
+Date:   Tue Apr 5 00:24:40 2022 -0400
+
+    ignore my config file for ftp
+
+commit 541007f07af6926b26b54a2c2c5a8be2d8f7807e
+Author: finley-talley <73396510+finley-talley@users.noreply.github.com>
+Date:   Tue Apr 5 00:19:36 2022 -0400
+
+    importing tokenlist files/funcs from previous project
+
+commit e6079ab5aab964057429d172e369a4fd98d481d4
+Author: Finley Talley <73396510+finley-talley@users.noreply.github.com>
+Date:   Tue Mar 29 23:01:29 2022 -0400
+
+    Initial commit
